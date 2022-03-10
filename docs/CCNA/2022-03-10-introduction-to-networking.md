@@ -47,8 +47,6 @@ parent: CCNA
 
 How a website makes its way to a user.
 
-![Encapsulation Diagram](/assets/images/CCNA/encapsulation-diagram.jpg)
-
 ### 7. Application 
 
 A website is broken into chunks to be sent across the network.
@@ -59,11 +57,19 @@ A website is broken into chunks to be sent across the network.
 
 The packet is the chunk of data produced from the application layer.
 
+| Source Port | Dest Port | Flags | Seq# | Ack# | Packet |
+| ----------- | --------- | ----- | ---- | ---- | ------ |
+|             |           |       |      |      |        |
+
 ### 3. Network
 
 **Packet** - a chunk of data with a network header.
 
 The **segment** is received from the transport layer.
+
+| Source IP | Dest IP | TTL  | Other | Segment |
+| --------- | ------- | ---- | ----- | ------- |
+|           |         |      |       |         |
 
 ### 2. Data Link
 
@@ -71,7 +77,13 @@ The **segment** is received from the transport layer.
 
 The **packet** is inserted from the network layer.
 
+| Dest MAC | Source MAC | Layer 3 Protocol | Packet |
+| -------- | ---------- | ---------------- | ------ |
+|          |            |                  |        |
+
 ### 1. Physical
+
+Signals then transmit the Frame across the network.
 
 ## Addressing the Network
 
