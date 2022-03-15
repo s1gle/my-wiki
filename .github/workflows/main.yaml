@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: bundle exec jekyll build
+      - uses: helaili/jekyll-build@v2
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
         with:
