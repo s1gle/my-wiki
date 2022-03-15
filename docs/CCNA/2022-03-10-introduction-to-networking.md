@@ -4,6 +4,8 @@ title: Introduction to Networking
 parent: CCNA
 ---
 
+# Introduction to Networking
+
 ## Local/Global Addressing 
 
 | Method |    Example     |
@@ -45,7 +47,7 @@ parent: CCNA
 
 ## Encapsulation
 
-How a website makes its way to a user.
+How a website makes its way to the end user.
 
 ### 7. Application 
 
@@ -55,7 +57,7 @@ A website is broken into chunks to be sent across the network.
 
 **Segment** - a chunk of data with a transport layer header.
 
-The packet is the chunk of data produced from the application layer.
+The **Packet** in this **Segment** is the chunk of data produced from the Application Layer.
 
 | Source Port | Dest Port | Flags | Seq# | Ack# | Packet |
 | ----------- | --------- | ----- | ---- | ---- | ------ |
@@ -65,7 +67,7 @@ The packet is the chunk of data produced from the application layer.
 
 **Packet** - a chunk of data with a network header.
 
-The **segment** is received from the transport layer.
+The **Segment** in this **Packet** is received from the Transport Layer.
 
 | Source IP | Dest IP | TTL  | Other | Segment |
 | --------- | ------- | ---- | ----- | ------- |
@@ -75,7 +77,7 @@ The **segment** is received from the transport layer.
 
 **Frame** - a chunk of data with a data link header.
 
-The **packet** is inserted from the network layer.
+The **Packet** in this **Frame** is received from the Network Layer.
 
 | Dest MAC | Source MAC | Layer 3 Protocol | Packet |
 | -------- | ---------- | ---------------- | ------ |
@@ -83,7 +85,7 @@ The **packet** is inserted from the network layer.
 
 ### 1. Physical
 
-Signals then transmit the Frame across the network.
+Signals then transmits the Frame across the network.
 
 ## Addressing the Network
 
