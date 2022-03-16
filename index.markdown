@@ -7,3 +7,7 @@ title: Home
 nav_order: 1
 permalink: /
 ---
+
+# Thanesh's Wiki
+
+This is the place where I plan to document everything I learn so I can come back to it at a later time.
