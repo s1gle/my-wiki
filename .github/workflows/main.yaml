@@ -1,5 +1,3 @@
-name: Build and Upload Website to S3 Bucket
-
 on:
   push:
     branches:
