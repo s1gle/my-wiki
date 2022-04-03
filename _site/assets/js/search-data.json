@@ -1,0 +1,98 @@
+{"0": {
+    "doc": "CCNA",
+    "title": "CCNA",
+    "content": "10/03/2022 . I’m currently studying for the CCNA to better understanding networking. These are the notes that I’m taking along the way as I prepare for the exam. ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-ccna.html",
+    "relUrl": "/docs/CCNA/2022-03-10-ccna.html"
+  },"1": {
+    "doc": "Introduction to Networking",
+    "title": "Introduction to Networking",
+    "content": " ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html"
+  },"2": {
+    "doc": "Introduction to Networking",
+    "title": "Local/Global Addressing",
+    "content": "| Method | Example | . | Media | Air/Wires | . | Local | Name | . | Global | Phone No. | . | Cues | Setup/Teardown | . | Data | Conversation | . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#localglobal-addressing",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#localglobal-addressing"
+  },"3": {
+    "doc": "Introduction to Networking",
+    "title": "Categorizing Data Transmission",
+    "content": "| Method | Example | . | Media | Wires/Radio/Glass | . | Local | Ethernet | . | Global | Internet Protocol (IP) | . | Cues | TCP | . | Data | Website/Email | . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#categorizing-data-transmission",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#categorizing-data-transmission"
+  },"4": {
+    "doc": "Introduction to Networking",
+    "title": "The OSI Model",
+    "content": "| Layer | Example | . | Physical | Wires/Radio/Glass | . | Data Link | Ethernet | . | Network | Internet Protocol | . | Transport | TCP | . | Application | Website/Email | . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#the-osi-model",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#the-osi-model"
+  },"5": {
+    "doc": "Introduction to Networking",
+    "title": "OSI Model vs. TCP/IP Model",
+    "content": "| TCP/IP | OSI | . | Network Interface | PhysicalData Link | . | Internet | Network | . | Transport | Transport | . | Application | SessionPresentationApplication | . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#osi-model-vs-tcpip-model",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#osi-model-vs-tcpip-model"
+  },"6": {
+    "doc": "Introduction to Networking",
+    "title": "Encapsulation",
+    "content": "How a website makes its way to the end user. 7. Application . A website is broken into chunks to be sent across the network. 4. Transport . Segment - a chunk of data with a transport layer header. The Packet in this Segment is the chunk of data produced from the Application Layer. | Source Port | Dest Port | Flags | Seq# | Ack# | Packet | . |   |   |   |   |   |   | . 3. Network . Packet - a chunk of data with a network header. The Segment in this Packet is received from the Transport Layer. | Source IP | Dest IP | TTL | Other | Segment | . |   |   |   |   |   | . 2. Data Link . Frame - a chunk of data with a data link header. The Packet in this Frame is received from the Network Layer. | Dest MAC | Source MAC | Layer 3 Protocol | Packet | . |   |   |   |   | . 1. Physical . Signals then transmits the Frame across the network. ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#encapsulation",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#encapsulation"
+  },"7": {
+    "doc": "Introduction to Networking",
+    "title": "Addressing the Network",
+    "content": ". Data Link Layer (Network Interface) . Layer 2 . Keywords: . | Frame | MAC addresses | Local Communication | . NIC: . Frame -&gt; Signal, . Signal -&gt; Frame . Network Layer (Internet) . Layer 3 . Keywords: . | IP address | Routers | . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-introduction-to-networking.html#addressing-the-network",
+    "relUrl": "/docs/CCNA/2022-03-10-introduction-to-networking.html#addressing-the-network"
+  },"8": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "Network Layer and Subnetting",
+    "content": " ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#network-layer-and-subnetting",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#network-layer-and-subnetting"
+  },"9": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "Introduction to Binary",
+    "content": "Binary 101 . Base 10 -&gt; What we use in daily life. Binary -&gt; On(1)/Off(0) . Converting Binary to Decimal . | 128’s Place | 64’s Place | 32’s Place | 16’s Place | 8’s Place | 4’s Place | 2’s Place | 1’s Place | . | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | . | 1*128 | 1*64 | 0*32 | 0*16 | 0*8 | 0*4 | 0*2 | 0*1 | . 128 + 64 = 192 . Converting Decimal to Binary . Subtracting from each place must result in a positive or 0 value. Example: 210 . | 128’s Place | 64’s Place | 32’s Place | 16’s Place | 8’s Place | 4’s Place | 2’s Place | 1’s Place | . | 210-128=82 | 82-64=18 | Skip since 18-32 is negative. | 18-16=2 | Skip since 2-8 is negative. | Skip since 2-4 is negative. | 2-2=0 | Skip since 0-1 is negative. | . | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | . Result: 11010010 . Hexadecimal . | Binary | Hexadecimal | Decimal | . | 0000 | 0 | 0 | . | 0001 | 1 | 1 | . | 0010 | 2 | 2 | . | 0011 | 3 | 3 | . | 0100 | 4 | 4 | . | 0101 | 5 | 5 | . | 0110 | 6 | 6 | . | 0111 | 7 | 7 | . | 1000 | 8 | 8 | . | 1001 | 9 | 9 | . | 1010 | A | 10 | . | 1011 | B | 11 | . | 1100 | C | 12 | . | 1101 | D | 13 | . | 1110 | 14 | E | . | 1111 | 15 | F | . Every 4 digit Binary bits can be converted to Hexadecimal. ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-binary",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-binary"
+  },"10": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "Introduction to IP Addressing",
+    "content": "IP Address - Identifier for a device on a network. Classless Addressing (Post 1995) . | IP Address | Subnet Mask | . | 203.0.113.10 | 255.255.255.0 | . | 11001011 00000000 01110001 00001010 | 11111111 11111111 11111111 00000000 | . | The Subnet Mask classifies the Network and Host Portion of the IP Address. | 255’s identify the Network portion and 0’s identify the host portion. | It doesn’t always have to be 255.255.255.0. | . Classful Addressing (Pre 1995) . There were classes that IP addresses fell into that determined the Network and Host portion of the address. Address Types . | Network Address | Broadcast Address | Host Address | . | All binary 0’s in the host portion of the IP address. | All binary 1’s in the host portion of the IP address. | Anything except all binary 0’s and 1’s. | . Host Address - Example . | IP Address | Subnet Mask | . | 192.168.10.25 | 255.255.255.0 | . | 11000000 10101000 00001010 00011001 | 11111111 11111111 11111111 00000000 | . Network Address - Example . | IP Address | Subnet Mask | . | 10.128.224.64 | 255.255.255.224 | . | 00001010 10000000 11100000 01000000 | 11111111 11111111 11111111 11100000 | . Broadcast Address - Example . | IP Address | Subnet Mask | . | 192.168.10.255 | 255.255.255.0 | . | 11000000 10101000 00001010 11111111 | 11111111 11111111 11111111 00000000 | . Private IP Address Range . | From | To | . | 10.0.0.0 | 10.255.255.255 | . | 172.16.0.0 | 172.31.255.255 | . | 192.168.0.0 | 192.168.255.255 | . 127.0.0.1 -&gt; Loopback Address . ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-ip-addressing",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-ip-addressing"
+  },"11": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "Introduction to IPv6",
+    "content": "Bit - 0 or 1 . Nibble - 4 bits . Byte - 8 bits . Hextet - 16 bits . IPv4 Address Size . 32 bits long = 4 octets . 192.168.10.10 . IPv6 Address Size . 128 bits long = 32 nibbles = 8 hextets . 2001:0DB8:0002:008D:0000:0000:00A5:52F5 . IPv6 Addresses . | Network Portion (64 Bits) | Interface Identifier (64 Bits) | . | 2001:0DB8:0002:008D | :0000:0000:00A5:52F5 | . Eliminate Leading 0’s . | Network Portion (64 Bits) | Interface Identifier (64 Bits) | . | 2001:DB8:2:8D | :0:0:A5:52F5 | . Eliminate 0’s with :: (Double Colon) . | Network Portion (64 Bits) | Interface Identifier (64 Bits) | . | 2001:DB8:2:8D | ::A5:52F5 | . IPv6 Addresses Operation . Similar to IPv4, the network portion of the address must be the same for two devices to communicate. IPv6 unicast addresses . Unicast address represents a single interface. Packets addresses to a unicast address will be delivered to a specific network interface. | global unicast - similar to IPv4 public IP addresses. These addresses are assigned by the IANA and used on public networks. | unique local - similar to IPv4 private address. They are used in private networks and aren’t routable on the Internet. They start with FC or FD. | link local - these addresses are used for sending packets over the local subnet. Routers do not forward packets with this addresses to other subnets. IPv6 requires a link-local address to be assigned to every network interface on which the IPv6 protocol is enabled. These addresses have a prefix of FE80::/10. | . How many IPv6 Addresses . 264 = 18,446,744,073,709,600,00 . For EACH IPv6 Network! . IPv6 Address Acquisition SLAAC . IPv6 Stateless Address Autoconfiguration or SLAAC allows devices on a network to automatically configure IPv6 addresses on its interface without managing a DHCP server. | Learn the IPv6 prefix used on the link, from any router, using NDP RS/RA messages. | Build an address from the prefix plus an interface ID, chosen either by using EUI-64 rules or as a random value. | Before using the address, first determine that no host is already using the same address. | . IPv6 Address Acquisition DHCP . To find an address with DHCP, the DHCP client sends messages to a DHCP server, and the server assigns a currently unused address in the correct subnet for the endpoint host to use. The proces relies on DHCP client functions in each device and a DHCP server configured and working in the network. ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-ipv6",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#introduction-to-ipv6"
+  },"12": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "IPv6 Subnetting",
+    "content": "IPv4 Address and Mask . 32 bits long = 4 octets . |   | Address | Network Prefix | Host Portion | . | Host Address | 192.168.10.10 | 11000000 10101000 00001010 00 | 001010 | . | Subnet Mask | 255.255.255.192 | 11111111 11111111 11111111 11 | 000000 | . IPv6 Mask . | Network Prefix | Interface Identifier | . | 2001:0DB8:0002:008D | :0000:0000:00A5:52F5 | . /64 used for individual network segments. Subnetting IPv6 . Initially, the ISP obtains the IPv6 address from IANA regional registry. Next, they make use of the next 8 bits, after the network prefix to allocate IPv6 addresses. Those addresses then get assigned to their clients. The address assigned to the client then gets further broken down based on the number of networks they need for each region. Since, the first 48 bits is assigned by the ISP (and cannot be changed); the last 16 bits can be used for assigning network addresses to each of the regions. After the networks have been assigned to each region, each address can be further broken down to encompass the cities within those regions. Basic Router Operation . A router is a networking device that forwards data packets between multiple networks. This is a different to a switch, whereby, it only facilities communication within the same network. For example, imagine we would like to send a ping message from our computer to a server on another network. First, after running the command, the ping message gets encapsulated in a packet with the host and destination address. The packet then gets encapsulated into a frame, which is a layer 2 carrier for our packets. It contains the host (PC) and destination (default gateway) MAC address. Once the frame reaches the default gateway, it strips away the frame and encapsulates the packet into a new frame. The new frame has the source MAC address of the 10.0.0.129 interface and a destination MAC address of the server. Once the frame reaches the server, it strips away the frame and packet, determining the ping message. After this, the process happens in reverse for server to send a ping reply back to the PC. ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#ipv6-subnetting",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html#ipv6-subnetting"
+  },"13": {
+    "doc": "Network Layer Addressing and Subnetting",
+    "title": "Network Layer Addressing and Subnetting",
+    "content": " ",
+    "url": "http://localhost:4000/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html",
+    "relUrl": "/docs/CCNA/2022-03-10-network-layer-addressing-and-subnetting.html"
+  },"14": {
+    "doc": "Home",
+    "title": "Thanesh’s Wiki",
+    "content": "This is the place where I plan to document everything I learn so I can come back to it at a later time. ",
+    "url": "http://localhost:4000/#thaneshs-wiki",
+    "relUrl": "/#thaneshs-wiki"
+  },"15": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  }
+}
