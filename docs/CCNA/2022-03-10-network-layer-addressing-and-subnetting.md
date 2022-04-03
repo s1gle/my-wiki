@@ -63,7 +63,7 @@ Every 4 digit Binary bits can be converted to Hexadecimal.
 
 **IP Address** - Identifier for a device on a network.
 
-![IP Network and Host Portions](/assets/images/CCNA/ip-network-host.png)
+![IP Network and Host Portions](/assets/images/CCNA/ip-network-host.jpg)
 
 ### Classless Addressing (Post 1995)
 
@@ -246,16 +246,16 @@ For example, imagine we would like to send a `ping` message from our computer to
 
 First, after running the command, the `ping` message gets encapsulated in a packet with the host and destination address.
 
-![router-operation-1](/assets/images/CCNA/router-operation-1.png)
+![router-operation-1](/assets/images/CCNA/router-operation-1.jpg)
 
 The packet then gets encapsulated into a frame, which is a layer 2 carrier for our packets. It contains the host (PC) and destination (default gateway) MAC address.
 
-![router-operation-2](/assets/images/CCNA/router-operation-2.png)
+![router-operation-2](/assets/images/CCNA/router-operation-2.jpg)
 
 Once the frame reaches the default gateway, it strips away the frame and encapsulates the packet into a new frame. The new frame has the source MAC address of the 10.0.0.129 interface and a destination MAC address of the server.
 
-![router-operation-3](/assets/images/CCNA/router-operation-3.png)
+![router-operation-3](/assets/images/CCNA/router-operation-3.jpg)
 
 Once the frame reaches the server, it strips away the frame and packet, determining the `ping` message. After this, the process happens in reverse for server to send a `ping` reply back to the PC.
 
-![router-operation-4](/assets/images/CCNA/router-operation-4.png)
+![router-operation-4](/assets/images/CCNA/router-operation-4.jpg)
