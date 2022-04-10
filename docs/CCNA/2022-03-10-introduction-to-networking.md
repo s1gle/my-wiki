@@ -2,6 +2,7 @@
 layout: default
 title: Introduction to Networking
 parent: CCNA
+nav_order: 1
 ---
 
 # Introduction to Networking

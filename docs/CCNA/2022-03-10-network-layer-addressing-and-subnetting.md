@@ -2,6 +2,7 @@
 layout: default
 title: Network Layer Addressing and Subnetting
 parent: CCNA
+nav_order: 2
 ---
 
 # Network Layer and Subnetting
