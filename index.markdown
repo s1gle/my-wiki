@@ -9,5 +9,4 @@ permalink: /
 ---
 
 # Thanesh's Wiki
-
-This is the place where I plan to document everything I learn so I can come back to it at a later time.
+Это место, где я планирую документировать все, чему я учусь, чтобы иметь возможность вернуться к этому позже.
