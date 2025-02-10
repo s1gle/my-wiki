@@ -12,4 +12,4 @@ permalink: /
 Это место, где я планирую документировать все, чему я учусь, чтобы иметь возможность вернуться к этому позже.
 
 ![Router Setup](assets/images/CCNA/18.png)
-![Routr Setup](assets/images/CCNA/18.png)
+![Routr Setup](assets/images/CCNA/19.png)
