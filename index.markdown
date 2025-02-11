@@ -10,6 +10,5 @@ permalink: /
 
 # База
 Это место, где я планирую документировать все, чему я учусь, чтобы иметь возможность вернуться к этому позже.
-
-![Router Setup](assets/images/CCNA/18.png)
-![Routr Setup](assets/images/CCNA/19.png)
+<img src="assets/images/CCNA/18.png" alt="Описание изображения" width="500" height="300">
+<img src="assets/images/CCNA/18.png" alt="Описание изображения" width="300" height="150">
